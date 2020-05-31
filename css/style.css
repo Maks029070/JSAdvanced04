@@ -1,0 +1,40 @@
+a {
+   text-decoration: none;
+   color: black;
+}
+
+.main_container {
+   margin-left: 5%;
+   margin-top: 30px;
+}
+
+.folder {
+   background: url(../img/folder.png);
+   cursor: pointer;
+}
+
+.file {
+   background: url(../img/file.png);
+}
+
+.file, .folder {
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: 20%;
+   height: 60px;
+   width: 7%;
+   padding-left: 3%;
+   font-size: 20px;
+}
+
+.folder:hover {
+   background-size: 23%;
+}
+
+.active {
+   display: block;
+}
+
+.disabled {
+   display: none;
+}
